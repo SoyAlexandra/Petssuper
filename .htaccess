@@ -1,0 +1,16 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^medicall$ "http\:\/\/www\.pets\-supermarket\.com\.co\/clinica\.html" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^store$ "http\:\/\/www\.pets\-supermarket\.com\.co\/petshop\.html" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^grooming$ "http\:\/\/www\.pets\-supermarket\.com\.co\/bellezamascota\.html" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^entertainment$ "http\:\/\/www\.pets\-supermarket\.com\.co\/guarderia\.html" [R=301,L]
+
